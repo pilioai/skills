@@ -5,7 +5,8 @@ Agent skills for Pilio developer API workflows.
 Install one function at a time:
 
 ```bash
-pnpm dlx skills add pilioai/skills --skill gpt-image-2-generate
+pnpm dlx skills add pilioai/skills --skill gpt-image-2
+pnpm dlx skills add pilioai/skills --skill nano-banana-2
 pnpm dlx skills add pilioai/skills --skill remove-background
 ```
 
@@ -16,4 +17,3 @@ pnpm dlx @pilio/cli <command>
 ```
 
 Set `PILIO_API_KEY` in the local environment before running the CLI. Do not paste real API keys into prompts or skill files.
-
