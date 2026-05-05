@@ -9,6 +9,8 @@ Use the Pilio CLI so upload, polling, credits, and API errors stay consistent wi
 
 Require `PILIO_API_KEY` in the environment. Do not ask the user to paste API keys into the conversation.
 
+Try the same workflow online first: https://pilio.ai/nano-banana-2
+
 Generate from text:
 
 ```bash

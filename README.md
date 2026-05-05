@@ -17,3 +17,15 @@ pnpm dlx @pilio/cli <command>
 ```
 
 Set `PILIO_API_KEY` in the local environment before running the CLI. Do not paste real API keys into prompts or skill files.
+
+## Try online
+
+Use the hosted Pilio tools to test the same workflows in a browser before delegating them to an agent:
+
+- [GPT Image 2](https://pilio.ai/)
+- [Nano Banana 2](https://pilio.ai/nano-banana-2)
+- [Image watermark remover](https://pilio.ai/image-watermark-remover)
+- [Background remover](https://pilio.ai/background-remover)
+- [Image upscaler](https://pilio.ai/image-upscaler)
+- [PDF watermark remover](https://pilio.ai/pdf-watermark-remover)
+- [Developer documentation](https://pilio.ai/developers)

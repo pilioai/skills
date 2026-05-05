@@ -9,6 +9,8 @@ Use the Pilio CLI so upload and asynchronous task polling are handled consistent
 
 Require `PILIO_API_KEY` in the environment. Do not ask the user to paste API keys into the conversation.
 
+Try the same workflow online first: https://pilio.ai/image-watermark-remover
+
 Run:
 
 ```bash
@@ -22,4 +24,3 @@ pnpm dlx @pilio/cli task wait <task_id>
 ```
 
 Do not send the Pilio API key to result `download_url` values.
-
