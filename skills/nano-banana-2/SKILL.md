@@ -9,7 +9,7 @@ Use the Pilio CLI so upload, polling, credits, and API errors stay consistent wi
 
 Require `PILIO_API_KEY` in the environment. Do not ask the user to paste API keys into the conversation.
 
-This skill requires the current Pilio API deployment to support the Nano Banana 2 developer endpoint. If the CLI reports that Nano Banana 2 is not supported by the current Pilio API deployment, the API key and skill installation are not the problem; use GPT Image 2 or wait until the endpoint is available.
+This skill uses the Pilio public developer API. The Nano Banana 2 web product may be available before the public developer API endpoint is active on the current production deployment. If the CLI reports that Nano Banana 2 is not available on the current Pilio public developer API endpoint, the API key and skill installation are not the problem; use GPT Image 2 for developer-API workflows or wait until the public endpoint is available.
 
 Try the same workflow online first: https://pilio.ai/nano-banana-2
 
