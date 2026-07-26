@@ -6,6 +6,7 @@ Install one function at a time:
 
 ```bash
 pnpm dlx skills add pilioai/skills --skill gpt-image-2
+pnpm dlx skills add pilioai/skills --skill nano-banana-pro
 pnpm dlx skills add pilioai/skills --skill remove-background
 ```
 
@@ -22,6 +23,7 @@ Set `PILIO_API_KEY` in the local environment before running the CLI. Do not past
 Use the hosted Pilio tools to test the same workflows in a browser before delegating them to an agent:
 
 - [GPT Image 2](https://pilio.ai/)
+- [Nano Banana Pro](https://pilio.ai/nano-banana-pro)
 - [Image watermark remover](https://pilio.ai/image-watermark-remover)
 - [Background remover](https://pilio.ai/background-remover)
 - [Image upscaler](https://pilio.ai/image-upscaler)

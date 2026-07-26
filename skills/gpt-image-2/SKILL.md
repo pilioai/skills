@@ -28,7 +28,8 @@ Common options:
 - `--input`: local reference image path. Repeat for multiple references.
 - `--aspect-ratio`: `1:1`, `3:2`, `2:3`, `3:4`, `4:3`, `4:5`, `5:4`, `16:9`, `9:16`, `21:9`, or `auto`.
 - `--quality`: `low`, `medium`, or `high`.
-- `--resolution`: `0.5K`, `1K`, `2K`, or `4K`.
+
+GPT Image 2's upstream model does not expose a separate resolution parameter. Use `--aspect-ratio` to request the output canvas shape; Pilio appends that ratio to the prompt to guide generation. Requests containing `resolution` are rejected with HTTP 400.
 
 The command returns a task payload. If the task is still pending or processing, wait for it:
 
